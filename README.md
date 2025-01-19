@@ -5,8 +5,8 @@ We proposed an improved UAV autonomous landing mark detection algorithm based on
 In this study, all experiments were conducted in the same environment. The operating system used was Windows 10 64-bit, with Python version 3.9.19, PyTorch version 1.13.1, and CUDA version 11.7. The CPU was an Intel Core i7-7700, and the GPU was a GeForce GTX 1660 Ti. The experimental dataset was uniform, with a resolution of 640×640. The training cycle was set to 250 epochs, and the batch size was 2. The optimizer, learning rate, and weight parameters used for model training followed the default settings.
 
 # Download --------------------------------
-datesets:https://github.com/MengmingWu/UAV-datasets
-When using, create a datedests/Raruco directory in the project folder and place all the files of the dataset in this directory.
+datasets:https://github.com/MengmingWu/UAV-datasets
+When using, create a datasets/Raruco directory in the project folder and place all the files of the datasets in this directory.
 
 # Training --------------------------------
 from ultralytics import YOLOv10
