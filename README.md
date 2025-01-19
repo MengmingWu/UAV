@@ -1,12 +1,12 @@
 # UAV-YOLOv10 Description--------------------------------
-我们提出了一种基于yolov10改进的无人机自主降落标识检测算法，在windows完成了部署、训练及使用。改进后的网络结构详见Faster_DRB_SE.yaml。
+We proposed an improved UAV autonomous landing mark detection algorithm based on yolov10, and completed deployment, training and use in Windows. The improved network structure is detailed in Faster_DRB_SE.yaml.
 
 # Experimental setup --------------------------------
 In this study, all experiments were conducted in the same environment. The operating system used was Windows 10 64-bit, with Python version 3.9.19, PyTorch version 1.13.1, and CUDA version 11.7. The CPU was an Intel Core i7-7700, and the GPU was a GeForce GTX 1660 Ti. The experimental dataset was uniform, with a resolution of 640×640. The training cycle was set to 250 epochs, and the batch size was 2. The optimizer, learning rate, and weight parameters used for model training followed the default settings.
 
 # Download --------------------------------
 datesets:https://github.com/MengmingWu/UAV-datasets
-使用时在本项目文件夹下创建datedests/Raruco目录，将数据集全部文件置于本目录下。
+When using, create a datedests/Raruco directory in the project folder and place all the files of the dataset in this directory.
 
 # Training --------------------------------
 from ultralytics import YOLOv10
@@ -26,5 +26,5 @@ onnxsim==0.4.36
 onnxruntime-gpu==1.18.0
 
 # Citation --------------------------------
-论文名称“Enhanced UAV Autonomous Landing through YOLOv10-based Marker Detection with Lightweight and Context-aware Network”
-投递期刊"The Vision Computer"
+Paper title: "Enhanced UAV Autonomous Landing through YOLOv10-based Marker Detection with Lightweight and Context-aware Network"
+Submitted to "The Vision Computer"
